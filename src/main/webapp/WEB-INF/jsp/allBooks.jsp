@@ -4,5 +4,5 @@
 <ul>
     <c:forEach items="${books}" var="book">
         <li>${book}</li>
-    <c:forEach>
+    </c:forEach>
 </ul>

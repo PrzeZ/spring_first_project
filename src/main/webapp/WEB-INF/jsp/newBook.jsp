@@ -1,8 +1,8 @@
-<%@ taglib prefix="spring" uri="http://www.springframework.og/tags" %>
-<%@ taglib prefix="form uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <body>
-    <h1>Add new bok</h1>
+    <h1>Add new book</h1>
 
     <form:form modelAttribute="form">
         <form:errors path="" element="div"/>
@@ -12,7 +12,7 @@
             <form:errors path="title"/>
         </div>
         <div>
-            <input type="submit">
+            <input type="submit"/>
         </div>
     </form:form>
 </body>
