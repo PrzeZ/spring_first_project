@@ -4,15 +4,15 @@
 <body>
     <h1>Add new payment</h1>
 
-    <form:form modelAttribute="form">
+    <form:form modelAttribute="form" action="/payments/save">
         <form:errors path="" element="div"/>
         <div>
-            <form:label path="title">Title</form:label>
+            <form:label path="title">Value</form:label>
             <form:input path="title"/>
             <form:errors path="title"/>
         </div>
         <div>
-            <input type="submit"/>
+            <input type="submit" value="Save"/>
         </div>
     </form:form>
 </body>

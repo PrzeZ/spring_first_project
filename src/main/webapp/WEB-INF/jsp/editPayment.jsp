@@ -2,12 +2,14 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <body>
-    <h1>Add new book</h1>
+    <h1>Edit payment</h1>
 
-    <form:form modelAttribute="form" action="/books/save">
+    <form:form modelAttribute="form" method="POST" action="/payments/save">
         <form:errors path="" element="div"/>
         <div>
-            <form:label path="title">Title</form:label>
+            <form:hidden path="id"/>
+
+            <form:label path="title">Value</form:label>
             <form:input path="title"/>
             <form:errors path="title"/>
         </div>
