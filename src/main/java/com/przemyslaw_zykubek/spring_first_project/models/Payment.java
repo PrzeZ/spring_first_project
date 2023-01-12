@@ -13,16 +13,6 @@ public class Payment {
     
     private String title;
 
-    private double value;
-
-    public double getValue() {
-        return value;
-    }
-
-    public void setValue(double value) {
-        this.value = value;
-    }
-
     public String getTitle() {
         return title;
     }
@@ -33,6 +23,6 @@ public class Payment {
 
     @Override
     public String toString() {
-        return "Payment [id=" + id + ", title=" + title + "value=" + value + "]";
+        return "Payment [id=" + id + ", value=" + title + "]";
     }
 }

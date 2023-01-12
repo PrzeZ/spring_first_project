@@ -12,11 +12,6 @@
             <form:errors path="title"/>
         </div>
         <div>
-            <form:label path="value">Value</form:label>
-            <form:input path="value"/>
-            <form:errors path="value"/>
-        </div>
-        <div>
             <input type="submit"/>
         </div>
     </form:form>
