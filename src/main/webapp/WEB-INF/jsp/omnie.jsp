@@ -13,7 +13,7 @@
             <div class = "jumbotron">
                 <div class ="container">
                     <h1>TEST STYLÓW</h1>
-                </div>>   
+                </div>
             </div>
         </section>
     </body>
